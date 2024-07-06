@@ -1,0 +1,982 @@
+ID,Name,Male,Female,Delta
+2,The Shawshank Redemption,1,3,-2
+3,The Godfather,3,7,-4
+4,The Dark Knight,5,17,-12
+5,The Godfather: Part II,4,14,-10
+6,12 Angry Men,8,10,-2
+7,The Lord of the Rings: The Return of the King,7,8,-1
+8,Pulp Fiction,6,38,-32
+9,Schindler's List,9,5,4
+10,The Mountain II,13,6,7
+11,Inception,14,24,-10
+12,Fight Club,11,19,-8
+13,The Lord of the Rings: The Fellowship of the Ring,12,12,0
+14,Forrest Gump,15,18,-3
+15,"The Good, the Bad and the Ugly",10,76,-66
+16,The Lord of the Rings: The Two Towers,17,20,-3
+17,The Matrix,18,113,-95
+18,Goodfellas,21,102,-81
+19,Star Wars: Episode V - The Empire Strikes Back,16,57,-41
+20,One Flew Over the Cuckoo's Nest,20,28,-8
+21,Parasite,46,37,9
+23,Interstellar,25,79,-54
+24,City of God,23,71,-48
+25,Spirited Away,43,13,30
+26,Saving Private Ryan,28,282,-254
+27,The Green Mile,42,21,21
+28,Life Is Beautiful,36,9,27
+29,Se7en,22,44,-22
+30,The Silence of the Lambs,30,33,-3
+31,Star Wars: Episode IV - A New Hope,26,58,-32
+33,Seven Samurai,19,109,-90
+34,It's a Wonderful Life,24,32,-8
+37,Whiplash,52,97,-45
+38,The Intouchables,49,15,34
+39,The Prestige,40,84,-44
+40,The Departed,47,105,-58
+41,The Pianist,50,23,27
+42,Gladiator,33,139,-106
+43,American History X,53,29,24
+44,The Usual Suspects,32,68,-36
+45,Léon: The Professional,34,25,9
+46,The Lion King,69,11,58
+47,Terminator 2: Judgment Day,31,317,-286
+48,Cinema Paradiso,58,36,22
+49,Grave of the Fireflies,59,26,33
+50,Back to the Future,35,85,-50
+51,Once Upon a Time in the West,48,299,-251
+52,Psycho,41,59,-18
+53,Casablanca,38,95,-57
+54,Modern Times,37,51,-14
+55,City Lights,39,43,-4
+57,Joker,73,50,23
+60,Your Name.,79,92,-13
+61,Dangal,81,56,25
+62,Spider-Man: Into the Spider-Verse,112,49,63
+63,Avengers: Endgame,110,41,69
+64,Avengers: Infinity War,68,78,-10
+66,Coco,106,31,75
+67,Django Unchained,55,90,-35
+68,The Dark Knight Rises,64,91,-27
+69,3 Idiots,78,104,-26
+70,Like Stars on Earth,77,119,-42
+71,WALL·E,70,67,3
+72,The Lives of Others,67,34,33
+73,Oldboy,74,134,-60
+74,Memento,51,173,-122
+75,Princess Mononoke,75,99,-24
+76,Once Upon a Time in America,85,223,-138
+77,Indiana Jones and the Raiders of the Lost Ark,56,198,-142
+78,The Shining,65,129,-64
+79,Apocalypse Now,54,225,-171
+80,Alien,45,164,-119
+82,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,66,272,-206
+83,Witness for the Prosecution,63,52,11
+84,Paths of Glory,61,245,-184
+85,Rear Window,57,48,9
+86,Sunset Blvd.,76,61,15
+87,The Great Dictator,60,42,18
+88,1917,128,122,6
+90,The Hunt,124,152,-28
+91,A Separation,94,197,-103
+92,Incendies,137,73,64
+96,Inglourious Basterds,107,101,6
+97,Eternal Sunshine of the Spotless Mind,122,106,16
+98,Amélie,131,53,78
+99,Snatch,90,318,-228
+100,Requiem for a Dream,118,108,10
+101,American Beauty,71,268,-197
+102,Good Will Hunting,100,174,-74
+104,Toy Story,80,169,-89
+105,Braveheart,87,400,-313
+106,Reservoir Dogs,97,257,-160
+107,Full Metal Jacket,114,295,-181
+109,Aliens,72,258,-186
+110,Amadeus,84,103,-19
+111,Scarface,105,411,-306
+112,Star Wars: Episode VI - Return of the Jedi,83,110,-27
+113,Das Boot,86,354,-268
+114,The Sting,103,208,-105
+115,A Clockwork Orange,109,260,-151
+117,2001: A Space Odyssey,82,479,-397
+118,Lawrence of Arabia,108,437,-329
+119,The Apartment,98,251,-153
+120,North by Northwest,115,184,-69
+121,Vertigo,92,162,-70
+122,Singin' in the Rain,145,45,100
+124,Bicycle Thieves,102,153,-51
+125,Double Indemnity,89,292,-203
+126,Citizen Kane,111,335,-224
+127,M,91,123,-32
+128,Metropolis,132,124,8
+129,The Kid,116,77,39
+134,Green Book,175,89,86
+137,Klaus,298,62,236
+146,The Secret in Their Eyes,152,176,-24
+147,Warrior,181,206,-25
+148,Shutter Island,176,196,-20
+149,Up,151,69,82
+151,The Wolf of Wall Street,125,656,-531
+153,There Will Be Blood,216,626,-410
+154,Pan's Labyrinth,167,133,34
+155,Toy Story 3,96,148,-52
+156,V for Vendetta,169,218,-49
+157,Rang De Basanti,182,1063,-881
+159,Batman Begins,120,372,-252
+161,Downfall,138,326,-188
+162,Howl's Moving Castle,318,27,291
+163,A Beautiful Mind,154,150,4
+165,"Lock, Stock and Two Smoking Barrels",179,323,-144
+166,L.A. Confidential,119,460,-341
+168,Heat,126,648,-522
+169,Casino,160,569,-409
+171,Unforgiven,139,736,-597
+172,Indiana Jones and the Last Crusade,135,300,-165
+174,My Neighbor Totoro,239,66,173
+175,Die Hard,117,572,-455
+176,Ran,140,347,-207
+177,Raging Bull,147,833,-686
+178,Stalker,225,151,74
+180,Taxi Driver,101,378,-277
+183,Monty Python and the Holy Grail,144,199,-55
+184,For a Few Dollars More,121,467,-346
+185,The Great Escape,142,312,-170
+186,To Kill a Mockingbird,123,70,53
+187,Yojimbo,113,507,-394
+189,Some Like It Hot,173,93,80
+191,The Seventh Seal,219,221,-2
+192,Dial M for Murder,164,224,-60
+194,Rashomon,146,276,-130
+195,All About Eve,162,46,116
+196,The Treasure of the Sierra Madre,141,484,-343
+198,The Gold Rush,190,279,-89
+203,"Three Billboards Outside Ebbing, Missouri",253,190,63
+204,The Invisible Guest,407,171,236
+205,The Handmaiden,281,185,96
+209,Logan,345,510,-165
+210,Room,254,125,129
+211,Wild Tales,214,157,57
+212,Soul,400,192,208
+215,PK,246,336,-90
+217,The Grand Budapest Hotel,274,212,62
+218,Gone Girl,184,285,-101
+221,Hacksaw Ridge,292,114,178
+222,Inside Out,186,160,26
+224,12 Years a Slave,271,242,29
+225,Rush,215,341,-126
+226,Ford v Ferrari,301,296,5
+227,Spotlight,283,262,21
+230,Prisoners,266,404,-138
+231,Mad Max: Fury Road,237,564,-327
+233,Zack Snyder's Justice League,279,387,-108
+234,Gran Torino,227,246,-19
+235,Harry Potter and the Deathly Hallows: Part 2,442,35,407
+237,Hachi: A Dog's Tale,316,83,233
+238,Mary and Max,310,74,236
+239,How to Train Your Dragon,355,63,292
+240,Into the Wild,262,264,-2
+241,No Country for Old Men,208,799,-591
+244,Million Dollar Baby,230,343,-113
+245,Hotel Rwanda,297,175,122
+247,Before Sunset,352,463,-111
+249,Memories of Murder,197,465,-268
+251,Kill Bill: Vol. 1,250,293,-43
+252,Finding Nemo,287,107,180
+253,Catch Me If You Can,317,305,12
+254,Amores Perros,260,291,-31
+255,"Monsters, Inc.",402,149,253
+257,Lagaan: Once Upon a Time in India,280,827,-547
+258,The Sixth Sense,200,204,-4
+260,The Truman Show,221,356,-135
+262,The Big Lebowski,174,733,-559
+263,In the Mood for Love,330,188,142
+264,Trainspotting,231,267,-36
+265,Fargo,195,408,-213
+267,La Haine,278,350,-72
+269,Before Sunrise,249,309,-60
+272,Jurassic Park,205,431,-226
+273,In the Name of the Father,252,210,42
+276,Dead Poets Society,408,130,278
+277,Stand by Me,366,145,221
+278,Platoon,259,619,-360
+281,Nausicaä of the Valley of the Wind,270,287,-17
+282,The Thing,199,785,-586
+286,Blade Runner,155,643,-488
+287,The Elephant Man,202,159,43
+288,Monty Python's Life of Brian,234,409,-175
+289,The Deer Hunter,198,294,-96
+290,Rocky,261,1073,-812
+291,Network,251,480,-229
+292,Barry Lyndon,228,888,-660
+294,Chinatown,196,527,-331
+299,Cool Hand Luke,206,421,-215
+300,Persona,302,186,116
+310,The 400 Blows,305,273,32
+311,Ben-Hur,210,578,-368
+315,The Bridge on the River Kwai,189,447,-258
+317,On the Waterfront,193,320,-127
+321,The Third Man,177,314,-137
+324,Rebecca,327,131,196
+325,Mr. Smith Goes to Washington,209,222,-13
+326,Gone with the Wind,324,39,285
+339,La La Land,339,694,-355
+340,Lion,463,116,347
+341,The Martian,421,407,14
+342,Zootopia,433,191,242
+343,Baahubali: The Beginning,429,853,-424
+345,Wonder,560,229,331
+349,The Raid 2,445,828,-383
+350,The Imitation Game,416,118,298
+351,Guardians of the Galaxy,338,328,10
+352,Blade Runner 2049,393,978,-585
+353,Her,311,800,-489
+354,Bohemian Rhapsody,607,75,532
+355,The Revenant,387,723,-336
+356,The Perks of Being a Wallflower,499,339,160
+358,The King's Speech,464,168,296
+359,The Help,487,82,405
+360,Deadpool,424,416,8
+363,Yip Man,361,545,-184
+366,Slumdog Millionaire,385,286,99
+367,Black Swan,419,410,9
+369,The Avengers,383,220,163
+371,Dallas Buyers Club,437,349,88
+372,The Pursuit of Happyness,451,450,1
+373,Blood Diamond,364,389,-25
+374,The Bourne Ultimatum,359,610,-251
+376,Sin City,328,956,-628
+377,The Diving Bell and the Butterfly,395,310,85
+379,Ratatouille,363,357,6
+380,Casino Royale,443,885,-442
+381,Kill Bill: Vol. 2,461,355,106
+385,Cinderella Man,371,573,-202
+386,Infernal Affairs,314,394,-80
+387,Pirates of the Caribbean: The Curse of the Black Pearl,423,214,209
+388,Big Fish,450,284,166
+389,The Incredibles,388,678,-290
+391,Dogville,444,234,210
+393,Donnie Darko,358,353,5
+394,Magnolia,372,855,-483
+395,Dancer in the Dark,489,346,143
+400,The Iron Giant,389,414,-25
+404,12 Monkeys,300,547,-247
+405,Ghost in the Shell,405,712,-307
+406,The Nightmare Before Christmas,522,140,382
+407,Groundhog Day,236,1029,-793
+409,Scent of a Woman,384,383,1
+410,Aladdin,418,177,241
+411,JFK,340,741,-401
+412,Beauty and the Beast,635,40,595
+413,Dances with Wolves,354,560,-206
+415,Rain Man,370,365,5
+416,Akira,378,709,-331
+417,The Princess Bride,398,170,228
+420,Castle in the Sky,374,412,-38
+421,The Terminator,248,826,-578
+422,Gandhi,334,440,-106
+425,Annie Hall,368,725,-357
+426,Jaws,272,949,-677
+427,Dog Day Afternoon,341,369,-28
+428,Young Frankenstein,365,261,104
+429,Papillon,325,477,-152
+430,The Exorcist,309,676,-367
+435,Butch Cassidy and the Sundance Kid,304,344,-40
+436,Rosemary's Baby,351,605,-254
+437,Planet of the Apes,427,870,-443
+438,The Graduate,343,636,-293
+440,The Sound of Music,579,86,493
+442,A Fistful of Dollars,392,881,-489
+443,8½,342,333,9
+457,Roman Holiday,457,211,246
+458,A Streetcar Named Desire,446,249,197
+461,Rope,401,403,-2
+467,The Maltese Falcon,346,587,-241
+469,The Wizard of Oz,394,180,214
+474,Knives Out,532,734,-202
+476,Marriage Story,481,762,-281
+477,Call Me by Your Name,794,167,627
+479,Isle of Dogs,654,376,278
+480,Hunt for the Wilderpeople,712,237,475
+481,Captain Fantastic,578,442,136
+483,Thor: Ragnarok,587,329,258
+484,Jojo Rabbit,591,230,361
+485,Arrival,516,474,42
+486,Star Wars: Episode VII - The Force Awakens,571,233,338
+487,Before Midnight,475,811,-336
+489,X-Men: Days of Future Past,447,316,131
+492,The Artist,573,290,283
+493,Edge of Tomorrow,480,792,-312
+496,Moon,538,576,-38
+497,Let the Right One In,521,746,-225
+498,District 9,406,906,-500
+499,The Wrestler,537,1049,-512
+501,Boyhood,448,923,-475
+503,Star Trek,474,236,238
+504,In Bruges,496,760,-264
+505,The Man from Earth,428,1002,-574
+506,Letters from Iwo Jima,505,757,-252
+507,The Fall,806,94,712
+508,Life of Pi,492,470,22
+509,Fantastic Mr. Fox,608,607,1
+513,Iron Man,574,599,-25
+514,Shaun of the Dead,517,541,-24
+517,Mystic River,493,513,-20
+518,Harry Potter and the Prisoner of Azkaban,723,165,558
+519,Hero,525,425,100
+520,Talk to Her,485,396,89
+523,The Bourne Identity,476,778,-302
+525,Children of Men,508,1004,-496
+526,Almost Famous,506,755,-249
+527,Mulholland Dr.,470,818,-348
+528,Toy Story 2,519,765,-246
+529,Boogie Nights,511,1280,-769
+532,True Romance,467,685,-218
+535,Carlito's Way,533,947,-414
+536,Edward Scissorhands,681,202,479
+539,The Untouchables,490,679,-189
+541,Brazil,527,558,-31
+542,This Is Spinal Tap,483,585,-102
+543,A Christmas Story,455,366,89
+544,The Blues Brothers,491,732,-241
+545,Manhattan,473,688,-215
+547,Dawn of the Dead,495,1226,-731
+548,All the President's Men,441,386,55
+556,Night of the Living Dead,523,859,-336
+561,Spartacus,462,866,-404
+568,Strangers on a Train,432,423,9
+581,The Gentlemen,705,674,31
+585,Dunkirk,588,561,27
+587,Hidden Figures,835,166,669
+590,Kubo and the Two Strings,729,469,260
+592,Manchester by the Sea,619,950,-331
+594,Rogue One: A Star Wars Story,702,808,-106
+595,Captain America: Civil War,677,695,-18
+596,The Hateful Eight,539,1247,-708
+597,Little Women,908,444,464
+600,Nightcrawler,531,999,-468
+605,Big Hero 6,830,240,590
+606,About Time,673,552,121
+609,Toy Story 4,770,775,-5
+610,The Best Offer,692,548,144
+611,Moonrise Kingdom,695,596,99
+612,How to Train Your Dragon 2,787,288,499
+613,The Big Short,593,1033,-440
+615,I Saw the Devil,586,977,-391
+616,The Girl with the Dragon Tattoo,589,382,207
+617,Captain Phillips,643,609,34
+619,Straight Outta Compton,650,566,84
+620,The Irishman,548,1503,-955
+623,The Hobbit: The Desolation of Smaug,687,358,329
+625,The Girl with the Dragon Tattoo,589,382,207
+626,Skyfall,715,896,-181
+627,The Trial of the Chicago 7,733,453,280
+629,The Fighter,598,802,-204
+630,Taken,652,837,-185
+631,The Boy in the Striped Pajamas,885,226,659
+632,Once,546,900,-354
+633,The Hobbit: An Unexpected Journey,606,306,300
+635,Atonement,784,504,280
+636,Drive,597,1238,-641
+637,American Gangster,605,1024,-419
+638,Avatar,552,899,-347
+639,Mr. Nobody,631,515,116
+640,Apocalypto,616,615,1
+641,Little Miss Sunshine,656,438,218
+642,Hot Fuzz,604,628,-24
+643,The Curious Case of Benjamin Button,599,704,-105
+646,Pride & Prejudice,1223,213,1010
+648,Serenity,617,235,382
+649,Walk the Line,620,398,222
+651,The Notebook,841,216,625
+656,The Count of Monte Cristo,793,611,182
+658,Remember the Titans,764,456,308
+659,"Crouching Tiger, Hidden Dragon",584,600,-16
+661,Cast Away,610,915,-305
+662,The Boondock Saints,716,319,397
+663,The Insider,630,946,-316
+665,Shrek,564,445,119
+666,Titanic,820,289,531
+668,Gattaca,672,742,-70
+669,The Game,661,935,-274
+671,Ed Wood,609,1015,-406
+672,What's Eating Gilbert Grape,872,462,410
+673,Tombstone,628,435,193
+677,The Fugitive,615,897,-282
+678,A Bronx Tale,732,667,65
+683,Boyz n the Hood,768,835,-67
+684,Misery,621,528,93
+685,Awakenings,641,406,235
+686,Kiki's Delivery Service,662,455,207
+687,Glory,596,542,54
+689,Back to the Future Part II,566,787,-221
+691,Predator,551,1657,-1106
+692,Evil Dead II,646,1463,-817
+693,Ferris Bueller's Day Off,667,658,9
+695,The Goonies,769,392,377
+697,The Breakfast Club,657,391,266
+699,Ghostbusters,691,1076,-385
+702,E.T. the Extra-Terrestrial,559,520,39
+703,Kramer vs. Kramer,674,692,-18
+707,The Conversation,570,879,-309
+712,Willy Wonka & the Chocolate Factory,648,549,99
+713,Midnight Cowboy,557,805,-248
+716,Bonnie and Clyde,701,831,-130
+718,Mary Poppins,857,298,559
+736,Roma,822,952,-130
+738,Deadpool 2,852,797,55
+739,Wind River,816,945,-129
+740,Get Out,825,832,-7
+741,Mission: Impossible - Fallout,756,1285,-529
+744,What We Do in the Shadows,890,476,414
+746,The Theory of Everything,936,478,458
+747,Kingsman: The Secret Service,805,666,139
+748,The Fault in Our Stars,884,669,215
+749,Me and Earl and the Dying Girl,727,788,-61
+750,Birdman or (The Unexpected Virtue of Ignorance),645,1336,-691
+751,Blue Is the Warmest Colour,734,904,-170
+754,Captain America: The Winter Soldier,780,618,162
+756,Nebraska,703,790,-87
+757,Wreck-It Ralph,788,823,-35
+760,Midnight in Paris,845,1106,-261
+761,The Lego Movie,666,995,-329
+762,Gravity,676,1366,-690
+763,Star Trek Into Darkness,866,429,437
+765,The Social Network,663,1497,-834
+766,X-Men: First Class,754,579,175
+767,The Hangover,678,1242,-564
+768,Silver Linings Playbook,699,980,-281
+769,Argo,859,653,206
+770,500 Days of Summer,747,1222,-475
+771,Harry Potter and the Deathly Hallows: Part 1,1146,187,959
+772,Ponyo,937,690,247
+773,Frost/Nixon,821,873,-52
+775,Changeling,752,756,-4
+779,This Is England,896,834,62
+780,Ex Machina,711,1132,-421
+782,The Last King of Scotland,808,686,122
+783,Zodiac,832,1343,-511
+784,Lucky Number Slevin,792,683,109
+787,Tangled,960,297,663
+789,Brokeback Mountain,1071,553,518
+790,3:10 to Yuma,803,842,-39
+791,Crash,679,721,-42
+792,Kung Fu Hustle,725,745,-20
+793,The Bourne Supremacy,744,953,-209
+794,The Machinist,814,841,-27
+795,Ray,785,801,-16
+796,Lost in Translation,664,1462,-798
+797,Harry Potter and the Goblet of Fire,1130,361,769
+798,Man on Fire,828,804,24
+799,Coraline,883,747,136
+800,The Last Samurai,728,1289,-561
+802,Good Bye Lenin!,807,551,256
+804,I Am Sam,1116,488,628
+805,Adaptation.,817,1626,-809
+806,Black Hawk Down,748,1330,-582
+807,Road to Perdition,815,1205,-390
+809,Billy Elliot,1028,375,653
+811,Ocean's Eleven,649,852,-203
+813,"O Brother, Where Art Thou?",774,829,-55
+815,"South Park: Bigger, Longer & Uncut",680,1516,-836
+816,Office Space,721,1263,-542
+818,Training Day,651,1436,-785
+819,Rushmore,836,1282,-446
+821,Being John Malkovich,790,1097,-307
+822,As Good as It Gets,777,974,-197
+823,The Fifth Element,843,575,268
+825,Donnie Brasco,660,1016,-356
+827,Primal Fear,899,597,302
+832,Clerks,669,1283,-614
+834,Philadelphia,844,401,443
+838,The Last of the Mohicans,791,776,15
+841,A Few Good Men,888,957,-69
+843,Barton Fink,802,1288,-486
+844,Miller's Crossing,634,1191,-557
+845,Who Framed Roger Rabbit,846,1043,-197
+849,Empire of the Sun,798,402,396
+850,The Name of the Rose,700,1010,-310
+851,Blue Velvet,720,1414,-694
+856,Star Trek II: The Wrath of Khan,799,1052,-253
+857,First Blood,775,1842,-1067
+859,Airplane!,659,1377,-718
+861,Halloween,710,1216,-506
+865,Blazing Saddles,760,782,-22
+866,Serpico,750,819,-69
+869,The French Connection,749,1482,-733
+870,Dirty Harry,658,1270,-612
+878,Goldfinger,707,1643,-936
+879,The Birds,842,845,-3
+898,The Two Popes,1097,919,178
+900,Searching,1003,930,73
+903,Once Upon a Time... In Hollywood,919,1475,-556
+908,Train to Busan,1158,691,467
+911,"Love, Simon",1289,860,429
+913,Gifted,1018,815,203
+917,Guardians of the Galaxy Vol. 2,1068,660,408
+918,Baby Driver,1080,1227,-147
+921,Bridge of Spies,995,1138,-143
+922,Incredibles 2,981,743,238
+923,Moana,1163,517,646
+924,Sicario,855,1711,-856
+925,Creed,1008,1265,-257
+928,Fury,972,1268,-296
+929,Hell or High Water,858,1486,-628
+933,Dawn of the Planet of the Apes,989,1318,-329
+936,The Raid: Redemption,913,1438,-525
+937,End of Watch,904,1123,-219
+939,Les Misérables,1236,635,601
+940,The Impossible,1234,532,702
+942,A Star Is Born,950,867,83
+943,The Greatest Showman,1329,568,761
+947,True Grit,903,1244,-341
+950,Despicable Me,1074,516,558
+951,Rise of the Planet of the Apes,1110,1200,-90
+952,A Single Man,1267,663,604
+953,50/50,878,998,-120
+954,Kick-Ass,840,1465,-625
+956,Moneyball,881,1717,-836
+958,The Skin I Live In,951,803,148
+959,Zombieland,978,1054,-76
+962,The Wave,973,715,258
+964,Sherlock Holmes,1016,892,124
+967,The Reader,1095,689,406
+968,The Blind Side,1078,458,620
+970,Superbad,964,1856,-892
+971,The Book Thief,1309,529,780
+972,Seven Pounds,959,793,166
+974,Eastern Promises,946,992,-46
+975,Stardust,1026,737,289
+979,Inside Man,930,1236,-306
+980,Gone Baby Gone,932,1241,-309
+985,The Illusionist,923,958,-35
+987,Kung Fu Panda,970,1466,-496
+988,Thank You for Smoking,986,1495,-509
+992,Harry Potter and the Half-Blood Prince,1336,417,919
+993,300,853,1365,-512
+994,Match Point,839,1293,-454
+995,Watchmen,789,1843,-1054
+996,Lord of War,998,1476,-478
+997,Saw,882,1306,-424
+1004,21 Grams,831,771,60
+1005,Love Actually,1186,627,559
+1007,Finding Neverland,947,632,315
+1008,25th Hour,850,1094,-244
+1009,The Life of David Gale,1162,538,624
+1010,The Butterfly Effect,818,987,-169
+1011,28 Days Later...,1031,1150,-119
+1012,Battle Royale,984,911,73
+1013,The Royal Tenenbaums,1041,907,134
+1014,Y Tu Mamá También,875,1269,-394
+1015,Harry Potter and the Sorcerer's Stone,1363,253,1110
+1017,The Others,1062,850,212
+1018,Blow,1012,1223,-211
+1019,Enemy at the Gates,934,1232,-298
+1020,Moulin Rouge!,1364,533,831
+1021,Traffic,979,1533,-554
+1022,Minority Report,935,1239,-304
+1026,American Psycho,968,1249,-281
+1027,Run Lola Run,920,729,191
+1028,The Thin Red Line,849,1207,-358
+1030,Mulan,1360,278,1082
+1031,Fear and Loathing in Las Vegas,910,1426,-516
+1033,Dark City,848,1140,-292
+1034,Star Trek: First Contact,1067,1000,67
+1035,Sleepers,1010,731,279
+1036,Lost Highway,983,1319,-336
+1037,Sense and Sensibility,1347,554,793
+1038,Die Hard with a Vengeance,905,1308,-403
+1041,Apollo 13,876,1030,-154
+1044,Legends of the Fall,1211,836,375
+1045,The Crow,1188,681,507
+1049,Falling Down,975,1514,-539
+1050,Dazed and Confused,961,1515,-554
+1051,My Cousin Vinny,1079,1051,28
+1056,The Hunt for Red October,1032,1370,-338
+1057,Home Alone,1057,886,171
+1058,The Godfather: Part III,957,1032,-75
+1059,When Harry Met Sally...,1013,921,92
+1060,National Lampoon's Christmas Vacation,1167,1120,47
+1062,The Little Mermaid,1549,265,1284
+1064,The Naked Gun: From the Files of Police Squad!,909,1918,-1009
+1068,RoboCop,999,1934,-935
+1069,"Planes, Trains & Automobiles",993,1554,-561
+1070,Lethal Weapon,901,1367,-466
+1071,The Fly,949,1738,-789
+1073,Indiana Jones and the Temple of Doom,1050,1145,-95
+1078,The Road Warrior,873,1805,-932
+1082,Escape from Alcatraz,974,1220,-246
+1086,Close Encounters of the Third Kind,894,1278,-384
+1088,Robin Hood,1086,843,243
+1097,The Jungle Book,924,1069,-145
+1104,Breakfast at Tiffany's,1133,475,658
+1115,Snow White and the Seven Dwarfs,991,893,98
+1121,The Lighthouse,1272,1930,-658
+1122,BlacKkKlansman,1341,908,433
+1125,Tenet,1357,1737,-380
+1126,A Quiet Place,1237,1078,159
+1127,Upgrade,1089,1552,-463
+1128,Spider-Man: Far from Home,1318,903,415
+1129,Phantom Thread,1147,1795,-648
+1131,"I, Tonya",1276,1212,64
+1132,The Big Sick,1049,1355,-306
+1135,The Favourite,1030,1419,-389
+1136,Nocturnal Animals,1159,1479,-320
+1138,John Wick: Chapter 2,1323,1608,-285
+1143,Still Alice,1274,963,311
+1147,Predestination,1168,1387,-219
+1148,How to Train Your Dragon: The Hidden World,1469,673,796
+1149,Brooklyn,1296,1060,236
+1153,Saving Mr. Banks,1382,927,455
+1155,Inside Llewyn Davis,1164,1837,-673
+1156,The Hunger Games: Catching Fire,1367,360,1007
+1158,127 Hours,944,1208,-264
+1159,Sherlock Holmes: A Game of Shadows,1213,1064,149
+1161,Tucker and Dale vs Evil,1087,1087,0
+1162,The Conjuring,1227,1273,-46
+1168,We Need to Talk About Kevin,1262,847,415
+1170,Doctor Strange,1209,961,248
+1172,Lone Survivor,1189,898,291
+1175,Milk,1150,830,320
+1176,Hugo,1202,1104,98
+1177,Source Code,1192,1452,-260
+1178,Doubt,1105,1371,-266
+1179,The Hurt Locker,1045,1361,-316
+1180,The Town,1072,1585,-513
+1185,Grindhouse,1053,1020,33
+1189,Scott Pilgrim vs. the World,1081,1617,-536
+1190,The Assassination of Jesse James by the Coward Robert Ford,1178,1670,-492
+1192,August Rush,1411,750,661
+1193,Stranger Than Fiction,1022,1142,-120
+1196,Munich,1006,1576,-570
+1197,Little Children,1138,1492,-354
+1198,Perfume: The Story of a Murderer,1157,1153,4
+1199,House of Flying Daggers,1230,774,456
+1200,Green Street Hooligans,1248,1115,133
+1201,Sideways,1112,1941,-829
+1202,Harry Potter and the Order of the Phoenix,1395,464,931
+1203,Kiss Kiss Bang Bang,1044,1324,-280
+1204,Collateral,996,1835,-839
+1209,The Aviator,1118,1494,-376
+1213,The Hours,1314,864,450
+1214,Ice Age,1096,770,326
+1217,The Man Who Wasn't There,1007,1363,-356
+1219,Gangs of New York,985,1616,-631
+1226,High Fidelity,1193,1527,-334
+1228,Star Wars: Episode III - Revenge of the Sith,1103,1398,-295
+1229,Pleasantville,1261,991,270
+1233,Jackie Brown,1135,1271,-136
+1234,The Devil's Advocate,1175,1077,98
+1237,A Time to Kill,1322,816,506
+1238,Leaving Las Vegas,1111,1632,-521
+1242,Interview with the Vampire: The Vampire Chronicles,1142,773,369
+1247,Army of Darkness,1210,1471,-261
+1253,Thelma & Louise,1349,675,674
+1255,Total Recall,1023,1776,-753
+1258,Field of Dreams,1165,1542,-377
+1259,Batman,1102,1345,-243
+1260,The Abyss,982,1281,-299
+1263,A Fish Called Wanda,1108,1298,-190
+1264,Beetlejuice,1243,905,338
+1268,A Nightmare on Elm Street,1185,1435,-250
+1270,Trading Places,1197,1507,-310
+1271,The Meaning of Life,1136,1014,122
+1272,The Evil Dead,1140,1729,-589
+1276,National Lampoon's Animal House,1073,1742,-669
+1277,The Omen,1052,1337,-285
+1280,The Texas Chain Saw Massacre,1183,1846,-663
+1296,Onward,1476,994,482
+1300,John Wick: Chapter 3 - Parabellum,1403,1501,-98
+1301,Uncut Gems,1215,1993,-778
+1304,Moonlight,1462,1093,369
+1305,Lady Bird,1345,1589,-244
+1308,Darkest Hour,1377,1372,5
+1309,Molly's Game,1283,1137,146
+1311,The Nice Guys,1396,1792,-396
+1314,The Disaster Artist,1428,1702,-274
+1315,War for the Planet of the Apes,1331,1323,8
+1316,Sully,1277,1139,138
+1317,The Jungle Book,924,1069,-145
+1318,John Wick,1502,1664,-162
+1319,I Origins,1588,889,699
+1321,Me Before You,1851,1039,812
+1325,Mission: Impossible - Rogue Nation,1371,1543,-172
+1326,The Hobbit: The Battle of the Five Armies,1437,884,553
+1327,Frozen,1439,614,825
+1328,Spider-Man: Homecoming,1366,1182,184
+1331,Begin Again,1346,1399,-53
+1333,Mud,1275,1782,-507
+1335,The Judge,1353,1047,306
+1337,Southpaw,1456,1129,327
+1339,Zero Dark Thirty,1290,1578,-288
+1341,The Way Way Back,1406,1382,24
+1342,Ready Player One,1306,1381,-75
+1345,"Crazy, Stupid, Love.",1438,1202,236
+1348,Cloud Atlas,1295,1155,140
+1351,Looper,1287,1564,-277
+1352,Mission: Impossible - Ghost Protocol,1383,1630,-247
+1354,Limitless,1370,1524,-154
+1355,Law Abiding Citizen,1416,1146,270
+1356,Up in the Air,1166,1885,-719
+1359,Pirate Radio,1410,820,590
+1360,Blue Valentine,1332,1707,-375
+1364,REC,1196,1832,-636
+1367,The Bucket List,1338,1170,168
+1368,Death at a Funeral,1520,1130,390
+1372,Juno,1337,1185,152
+1374,The Orphanage,1325,1109,216
+1375,Wonder Woman,1567,798,769
+1376,Babel,1268,1267,1
+1384,A History of Violence,1263,1831,-568
+1385,Memoirs of a Geisha,1895,869,1026
+1388,The Constant Gardener,1380,1085,295
+1389,The Terminal,1448,1642,-194
+1390,Garden State,1266,1506,-240
+1392,Wallace & Gromit: The Curse of the Were-Rabbit,1297,1565,-268
+1393,Master and Commander: The Far Side of the World,1344,1708,-364
+1395,Harry Potter and the Chamber of Secrets,1633,559,1074
+1396,Irreversible,1401,1620,-219
+1397,X2: X-Men United,1328,1375,-47
+1398,A Walk to Remember,1694,1341,353
+1400,K-PAX,1373,1439,-66
+1405,Equilibrium,1302,1126,176
+1407,Erin Brockovich,1595,1187,408
+1408,Pi,1402,1518,-116
+1409,The Talented Mr. Ripley,1451,1179,272
+1411,Man on the Moon,1225,1687,-462
+1413,The Emperor's New Groove,1730,1008,722
+1414,X-Men,1481,1031,450
+1416,Eyes Wide Shut,1218,1975,-757
+1419,Contact,1286,1607,-321
+1422,The Rock,1260,1605,-345
+1425,The English Patient,1460,1018,442
+1432,Dracula,1222,1040,182
+1433,Back to the Future Part III,1232,1484,-252
+1436,Wall Street,1359,1924,-565
+1438,Labyrinth,1692,574,1118
+1440,The NeverEnding Story,1527,894,633
+1457,Eraserhead,1433,1697,-264
+1458,Carrie,1390,1412,-22
+1461,The Rocky Horror Picture Show,1791,514,1277
+1473,From Russia with Love,1280,1868,-588
+1477,Alice in Wonderland,1555,1072,483
+1479,Pinocchio,1100,1741,-641
+1480,El Camino: A Breaking Bad Movie,1533,1849,-316
+1483,Hereditary,1508,1965,-457
+1485,The Ballad of Buster Scruggs,1600,1787,-187
+1487,Doctor Sleep,1492,1628,-136
+1488,The Shape of Water,1553,1534,19
+1491,Split,1491,1391,100
+1495,13 Hours,1639,1248,391
+1496,The Lego Batman Movie,1607,1508,99
+1497,Okja,1658,1117,541
+1498,Snowden,1676,1519,157
+1500,The Walk,1601,1675,-74
+1505,Fantastic Beasts and Where to Find Them,1804,887,917
+1506,The Conjuring 2,1590,1637,-47
+1508,Chef,1615,1673,-58
+1515,Avengers: Age of Ultron,1665,1071,594
+1516,Blue Jasmine,1638,1579,59
+1517,Finding Dory,1684,1080,604
+1519,American Sniper,1628,1612,16
+1520,The Accountant,1475,1502,-27
+1523,Rocketman,1748,1070,678
+1525,Flight,1452,1847,-395
+1526,The Edge of Seventeen,1486,1645,-159
+1527,Black Panther,1844,789,1055
+1528,The Place Beyond the Pines,1412,1763,-351
+1530,Despicable Me 2,1637,1044,593
+1531,Now You See Me,1777,1101,676
+1532,The Man from U.N.C.L.E.,1681,1164,517
+1533,Fast Five,1580,1180,400
+1535,The Next Three Days,1343,1595,-252
+1536,Monsters University,1713,1303,410
+1542,It,1484,1592,-108
+1551,First Man,1584,1903,-319
+1552,Lawless,1661,1444,217
+1554,The Lincoln Lawyer,1466,1431,35
+1555,An Education,1710,1406,304
+1557,Invictus,1505,1397,108
+1558,The Descendants,1429,1833,-404
+1559,RocknRolla,1507,1427,80
+1561,The Way Back,1516,1378,138
+1562,The Adventures of Tintin: The Secret of the Unicorn,1440,1750,-310
+1564,Revolutionary Road,1556,1539,17
+1565,Precious,1700,1218,482
+1567,Lars and the Real Girl,1512,1297,215
+1569,Mr. Brooks,1397,1791,-394
+1570,Ant-Man,1627,1545,82
+1572,The Simpsons Movie,1510,1871,-361
+1573,Rescue Dawn,1560,1650,-90
+1574,Across the Universe,1738,997,741
+1575,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,1495,1998,-503
+1576,Lincoln,1414,1639,-225
+1578,Alita: Battle Angel,1541,1754,-213
+1579,The Queen,1602,1572,30
+1580,Clerks II,1422,1922,-500
+1584,Sweeney Todd: The Demon Barber of Fleet Street,1712,1095,617
+1587,Coach Carter,1583,1498,85
+1588,Brick,1653,1902,-249
+1590,Pirates of the Caribbean: Dead Man's Chest,1589,1183,406
+1591,Capote,1449,1352,97
+1592,Layer Cake,1523,1937,-414
+1594,Dawn of the Dead,495,1226,-731
+1595,The Life Aquatic with Steve Zissou,1526,1713,-187
+1596,The Secret Life of Walter Mitty,1455,1425,30
+1598,Monster,1660,1407,253
+1599,Troy,1670,1863,-193
+1601,Matchstick Men,1596,1826,-230
+1602,Spider-Man 2,1529,1981,-452
+1603,Identity,1554,1450,104
+1610,Punch-Drunk Love,1550,1997,-447
+1611,Unbreakable,1511,1936,-425
+1613,Frequency,1501,1162,339
+1616,Galaxy Quest,1515,1161,354
+1617,"Girl, Interrupted",1898,806,1092
+1620,Sleepy Hollow,1517,1274,243
+1621,Ghost World,1521,1647,-126
+1622,10 Things I Hate About You,1985,856,1129
+1624,Spider-Man,1535,1906,-371
+1625,Rounders,1379,1973,-594
+1626,Ronin,1558,1964,-406
+1627,Corpse Bride,1691,941,750
+1628,Tarzan,1800,1433,367
+1629,The Negotiator,1569,1618,-49
+1631,Enemy of the State,1519,1721,-202
+1632,Dogma,1617,1275,342
+1633,Men in Black,1463,1666,-203
+1634,Hercules,1856,1159,697
+1637,Scream,1695,1725,-30
+1639,Jerry Maguire,1543,1874,-331
+1643,Friday,1551,1587,-36
+1644,Crimson Tide,1493,1786,-293
+1645,The Basketball Diaries,1524,1316,208
+1647,Natural Born Killers,1598,1206,392
+1651,Dumb and Dumber,1335,1999,-664
+1659,Point Break,1566,1719,-153
+1660,Cape Fear,713,700,13
+1665,Driving Miss Daisy,1444,1217,227
+1666,Willow,1682,1136,546
+1668,They Live,1568,1793,-225
+1670,Big,1480,1553,-73
+1671,Raising Arizona,1393,1726,-333
+1672,The Lost Boys,1835,1112,723
+1673,"Good Morning, Vietnam",1443,1386,57
+1678,Big Trouble in Little China,1546,1888,-342
+1683,The Karate Kid,1651,1739,-88
+1684,Gremlins,1572,1800,-228
+1685,Beverly Hills Cop,1461,1865,-404
+1686,Poltergeist,1399,1570,-171
+1689,Caddyshack,1539,1948,-409
+1690,Rocky II,1685,1917,-232
+1691,Superman,1419,1611,-192
+1698,Easy Rider,1506,1768,-262
+1700,One Hundred and One Dalmatians,1864,1169,695
+1701,Lady and the Tramp,1847,954,893
+1702,Peter Pan,1709,1177,532
+1703,Cinderella,1957,934,1023
+1704,Bambi,1610,1394,216
+1708,The Post,1858,1814,44
+1709,Vice,1783,1728,55
+1715,The Founder,1680,1919,-239
+1721,American Made,1852,1932,-80
+1722,The Lobster,1910,1873,37
+1725,Coherence,1725,1705,20
+1726,T2 Trainspotting,1827,1655,172
+1733,Carol,1720,1758,-38
+1740,Steve Jobs,1765,1979,-214
+1741,Seven Psychopaths,1830,1704,126
+1745,Unbroken,1918,1149,769
+1746,American Hustle,1605,1921,-316
+1749,Shame,1656,1933,-277
+1750,Carnage,1781,1875,-94
+1751,The Age of Adaline,1848,1470,378
+1752,"Love, Rosie",1991,1541,450
+1755,War Horse,1812,1118,694
+1756,The Master,1808,1987,-179
+1758,Melancholia,1906,1808,98
+1762,The Great Gatsby,1809,1266,543
+1763,Lee Daniels' The Butler,1963,1295,668
+1765,Kung Fu Panda 2,1626,1790,-164
+1769,21 Jump Street,1775,1723,52
+1771,Rango,1642,1972,-330
+1775,10 Cloverfield Lane,1645,1929,-284
+1777,The Ghost Writer,1718,1879,-161
+1778,Paddington,1798,1512,286
+1780,Defiance,1871,1544,327
+1782,Megamind,1703,1526,177
+1784,The Road,1687,1872,-185
+1786,The Darjeeling Limited,1790,1446,344
+1787,Shooter,1863,1824,39
+1789,Silence,1839,1967,-128
+1790,Fracture,1740,1430,310
+1791,The Croods,1883,1400,483
+1793,I Am Legend,1850,1844,6
+1797,Michael Clayton,1693,1900,-207
+1800,The Equalizer,1707,1715,-8
+1801,Sunshine,1618,1828,-210
+1803,The Descent,1780,1892,-112
+1806,The Fountain,1726,1734,-8
+1814,Closer,1662,1730,-68
+1815,Team America: World Police,1805,1992,-187
+1820,King Kong,500,1292,-792
+1821,Anchorman: The Legend of Ron Burgundy,1677,1985,-308
+1823,The Passion of the Christ,1932,1624,308
+1825,Kingdom of Heaven,1650,1947,-297
+1827,The Dreamers,1897,1469,428
+1828,Chicago,1981,1332,649
+1829,Shrek 2,1807,1575,232
+1830,The Phantom of the Opera,1989,933,1056
+1831,Red Dragon,1731,1561,170
+1833,Insomnia,1724,1960,-236
+1834,We Were Soldiers,1826,1858,-32
+1835,Lilo & Stitch,1951,1234,717
+1837,Chocolat,1885,1158,727
+1839,The Matrix Reloaded,1762,1920,-158
+1840,Pay It Forward,1927,1197,730
+1842,A.I. Artificial Intelligence,1890,1688,202
+1843,Men of Honor,1756,1213,543
+1844,The Bank Job,1705,1925,-220
+1845,The Patriot,1870,1692,178
+1849,Cold Mountain,1882,1566,316
+1850,The Virgin Suicides,1828,1676,152
+1854,Treasure Planet,1969,1528,441
+1856,Cube,1667,1859,-192
+1859,A Bug's Life,1806,1807,-1
+1860,Starship Troopers,1564,1991,-427
+1862,Meet Joe Black,1842,1699,143
+1865,Face/Off,1613,1820,-207
+1866,Chasing Amy,1606,1984,-378
+1867,Anastasia,2000,810,1190
+1869,Mission: Impossible,1814,1968,-154
+1871,From Dusk Till Dawn,1614,1821,-207
+1874,GoldenEye,1787,1983,-196
+1875,Desperado,1820,1864,-44
+1876,True Lies,1686,1809,-123
+1877,Speed,1704,1694,10
+1891,Die Hard 2,1815,1935,-120
+1894,Lethal Weapon 2,1683,1848,-165
+1916,Escape from New York,1838,1949,-111
+1921,Grease,1975,1012,963
+1925,Mean Streets,1646,1853,-207
+1935,Dr. No,1640,1899,-259
+1936,Sleeping Beauty,1904,1121,783
+1940,Dumbo,1759,1597,162
+1943,Midsommar,1953,1954,-1
+1946,The Devil All the Time,1967,1898,69
+1949,Bad Times at the El Royale,1930,1883,47
+1952,Creed II,1948,1733,215
+1955,Sicario: Day of the Soldado,1960,1955,5
+1960,Don't Breathe,1912,1956,-44
+1967,Allied,1880,1915,-35
+1970,Sing,1947,1619,328
+1976,Furious 7,1961,1108,853
+1978,Beauty and the Beast,635,40,595
+1981,Everest,1970,1825,145
+1982,Locke,1902,1913,-11
+1983,Star Trek Beyond,1984,1535,449
+1986,The Intern,1923,1613,310
+1988,Wild,1937,1548,389
+1990,Kung Fu Panda 3,1939,1680,259
+1997,Side Effects,1919,1940,-21
+1998,War Dogs,1894,1938,-44
+2000,Pitch Perfect,1983,1383,600

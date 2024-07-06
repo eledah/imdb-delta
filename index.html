@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta IMDB + GENDER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .list {
+            width: 30%;
+            height: 80vh;
+            overflow-y: auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .list-title {
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+        .movie-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .movie-name {
+            font-weight: bold;
+        }
+        .movie-stats {
+            font-size: 0.9em;
+            color: #666;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Delta IMDB + GENDER</h1>
+    <div class="container">
+        <div class="list" id="lowest-delta">
+            <div class="list-title">Lowest Delta</div>
+        </div>
+        <div class="list" id="middle-delta">
+            <div class="list-title">Middle Delta</div>
+        </div>
+        <div class="list" id="highest-delta">
+            <div class="list-title">Highest Delta</div>
+        </div>
+    </div>
+
+    <script>
+        // Function to fetch and parse CSV data
+        async function fetchCSV() {
+            const response = await fetch('output_movie_data.csv');
+            const data = await response.text();
+            const rows = data.split('\n').slice(1); // Remove header
+            return rows.map(row => {
+                const [id, name, male, female, delta] = row.split(',');
+                return { id, name, male: parseInt(male), female: parseInt(female), delta: parseInt(delta) };
+            });
+        }
+
+        // Function to render movie items
+        function renderMovieItem(movie) {
+            return `
+                <div class="movie-item">
+                    <div class="movie-name">${movie.name}</div>
+                    <div class="movie-stats">
+                        Delta: ${movie.delta}, M-Rank: ${movie.male}, F-Rank: ${movie.female}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to populate a list
+        function populateList(elementId, movies) {
+            const listElement = document.getElementById(elementId);
+            movies.forEach(movie => {
+                listElement.innerHTML += renderMovieItem(movie);
+            });
+        }
+
+        // Main function to load and display data
+        async function loadData() {
+            const movies = await fetchCSV();
+            
+            // Sort movies by delta
+            const sortedMovies = movies.sort((a, b) => a.delta - b.delta);
+            
+            // Get the three sets of movies
+            const lowestDelta = sortedMovies.slice(0, 200);
+            const highestDelta = sortedMovies.slice(-200).reverse();
+            const middleDelta = sortedMovies.slice(Math.floor(sortedMovies.length / 2) - 100, Math.floor(sortedMovies.length / 2) + 100);
+
+            // Populate the lists
+            populateList('lowest-delta', lowestDelta);
+            populateList('middle-delta', middleDelta);
+            populateList('highest-delta', highestDelta);
+        }
+
+        // Load data when the page is ready
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
