@@ -4,87 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delta IMDB + GENDER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --feminine-color: #FF69B4;
+            --masculine-color: #4169E1;
+            --neutral-color: #9370DB;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
         }
+        
         .container {
             display: flex;
             justify-content: space-around;
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
+        
         .list {
             width: 30%;
             height: 80vh;
             overflow-y: auto;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
         }
+        
+        .list:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        #feminine-movies {
+            background-color: var(--feminine-color);
+        }
+        
+        #middle-ground {
+            background-color: var(--neutral-color);
+        }
+        
+        #masculine-movies {
+            background-color: var(--masculine-color);
+        }
+        
         .list-title {
             text-align: center;
-            padding: 10px;
-            font-weight: bold;
-            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            font-weight: 600;
+            font-size: 1.5em;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            border-bottom: 2px solid rgba(255,255,255,0.3);
         }
+        
         .movie-item {
-            padding: 10px;
-            border-bottom: 1px solid #eee;
+            padding: 15px;
+            margin: 10px;
+            background-color: rgba(255,255,255,0.9);
+            border-radius: 10px;
+            transition: all 0.2s ease;
+            cursor: pointer;
         }
+        
+        .movie-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
         .movie-name {
-            font-weight: bold;
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 5px;
         }
+        
         .movie-stats {
             font-size: 0.9em;
             color: #666;
         }
+        
         h1 {
             text-align: center;
-            padding: 20px;
-            background-color: #333;
+            padding: 30px;
+            background: linear-gradient(45deg, var(--feminine-color), var(--neutral-color), var(--masculine-color));
             color: white;
             margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.3);
+            border-radius: 5px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255,255,255,0.5);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .list {
+                width: 90%;
+                margin-bottom: 20px;
+                height: auto;
+                max-height: 60vh;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Delta IMDB + GENDER</h1>
     <div class="container">
-        <div class="list" id="lowest-delta">
-            <div class="list-title">Lowest Delta</div>
+        <div class="list" id="feminine-movies">
+            <div class="list-title">Feminine Movies</div>
         </div>
-        <div class="list" id="middle-delta">
-            <div class="list-title">Middle Delta</div>
+        <div class="list" id="middle-ground">
+            <div class="list-title">Middle Ground</div>
         </div>
-        <div class="list" id="highest-delta">
-            <div class="list-title">Highest Delta</div>
+        <div class="list" id="masculine-movies">
+            <div class="list-title">Masculine Movies</div>
         </div>
     </div>
 
     <script>
         // Function to fetch and parse CSV data
         async function fetchCSV() {
-            const response = await fetch('output_movie_data.csv');
+            const response = await fetch('https://raw.githubusercontent.com/eledah/imdb-delta/main/output_movie_data.csv');
             const data = await response.text();
             const rows = data.split('\n').slice(1); // Remove header
             return rows.map(row => {
-                const [id, name, male, female, delta] = row.split(',');
-                return { id, name, male: parseInt(male), female: parseInt(female), delta: parseInt(delta) };
-            });
+                // Use regex to split the row, handling commas within quotes
+                const parts = row.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
+                if (parts && parts.length >= 6) {
+                    const [id, name, male, female, delta, link] = parts.map(part => part.replace(/^"|"$/g, '')); // Remove quotes
+                    return { 
+                        id, 
+                        name, 
+                        male: parseInt(male), 
+                        female: parseInt(female), 
+                        delta: parseInt(delta),
+                        link
+                    };
+                }
+                return null;
+            }).filter(movie => movie !== null);
         }
 
         // Function to render movie items
         function renderMovieItem(movie) {
             return `
-                <div class="movie-item">
+                <a href="${movie.link}" target="_blank" class="movie-item">
                     <div class="movie-name">${movie.name}</div>
                     <div class="movie-stats">
                         Delta: ${movie.delta}, M-Rank: ${movie.male}, F-Rank: ${movie.female}
                     </div>
-                </div>
+                </a>
             `;
         }
 
@@ -100,18 +192,21 @@
         async function loadData() {
             const movies = await fetchCSV();
             
-            // Sort movies by delta
-            const sortedMovies = movies.sort((a, b) => a.delta - b.delta);
+            // Sort movies by delta from most to least
+            const sortedByDelta = movies.sort((a, b) => b.delta - a.delta);
             
             // Get the three sets of movies
-            const lowestDelta = sortedMovies.slice(0, 200);
-            const highestDelta = sortedMovies.slice(-200).reverse();
-            const middleDelta = sortedMovies.slice(Math.floor(sortedMovies.length / 2) - 100, Math.floor(sortedMovies.length / 2) + 100);
+            const feminineMovies = sortedByDelta.slice(0, 200);
+            const masculineMovies = sortedByDelta.slice(-200).reverse();
+            const middleGround = sortedByDelta.slice(Math.floor(sortedByDelta.length / 2) - 100, Math.floor(sortedByDelta.length / 2) + 100);
+
+            // Sort middle ground by absolute delta
+            middleGround.sort((a, b) => Math.abs(a.delta) - Math.abs(b.delta));
 
             // Populate the lists
-            populateList('lowest-delta', lowestDelta);
-            populateList('middle-delta', middleDelta);
-            populateList('highest-delta', highestDelta);
+            populateList('feminine-movies', feminineMovies);
+            populateList('middle-ground', middleGround);
+            populateList('masculine-movies', masculineMovies);
         }
 
         // Load data when the page is ready

@@ -1,5 +1,7 @@
 # imdb-delta
 
+[Live Demo](https://eledah.github.io/imdb-delta)
+
 This project is no longer recieving updates due to IMDB's decision to remove the demographic ratings for every movie.
 
 ## The Goal
