@@ -210,8 +210,8 @@
             return rows.map(row => {
                 // Use regex to split the row, handling commas within quotes
                 const parts = row.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
-                if (parts && parts.length >= 7) {
-                    const [id, name, male, female, delta, link, poster] = parts.map(part => part.replace(/^"|"$/g, '')); // Remove quotes
+                if (parts && parts.length >= 8) {
+                    const [id, name, male, female, delta, link, poster, genre] = parts.map(part => part.replace(/^"|"$/g, '')); // Remove quotes
                     return { 
                         id, 
                         name, 
@@ -219,7 +219,8 @@
                         female: parseInt(female), 
                         delta: parseInt(delta),
                         link,
-                        poster
+                        poster,
+                        genre
                     };
                 }
                 return null;
