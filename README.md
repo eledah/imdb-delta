@@ -22,7 +22,7 @@ Note that a high Delta value doesn't necessarily mean that a certain gender like
 
 ## See the data for yourself
 
-I also have uploaded the spreadsheet to [Google Drive](https://drive.google.com/file/d/1JRYj-Lwhcla9YVVCbYAD5gClsOsbuVex/view?usp=sharing) for better viewing experience. I have also applied two different filters (Ratings > 100K & Score > 7.5) in order to create a more familiar movie list. I will also try to create additional ways of conevying the spredsheet information but until then you have to wait.
+I also have uploaded the spreadsheet to [Google Drive](https://drive.google.com/file/d/1JRYj-Lwhcla9YVVCbYAD5gClsOsbuVex/view?usp=sharing) for better viewing experience. I have also applied two different filters (Ratings > 100K & Score > 7.5) in order to create a more familiar movie list.
 
 
 
